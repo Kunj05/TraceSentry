@@ -17,6 +17,7 @@ import SubdomainFinder from './pages/tools/SubdomainFinder';
 import IpLookup from './pages/tools/IpLookup'
 import EmailValidator from './pages/tools/EmailValidator'
 import SatelliteStreetView from './pages/tools/SatelliteStreetView'
+import Php from './pages/Php'
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
             <Route path="/tools/ip-lookup" element={<IpLookup />} />
             <Route path="/tools/email-validator" element={<EmailValidator />} />
             <Route path="/tools/satellite-view" element={<SatelliteStreetView />} />
+            <Route path="/php" element={<Php />} />
             
           </Routes>
         </main>
